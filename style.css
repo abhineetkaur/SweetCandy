@@ -1,0 +1,135 @@
+body {
+	font-family: "Arial", sans-serif;
+	background: #f7e8a6;
+	color: #333;
+}
+
+header {
+	background: #ffd1dc;
+	padding: 20px;
+}
+
+nav {
+	text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+    display: inline-block;
+	margin: 0 10px;
+}
+    nav a {
+        display: block;
+        padding: 10px;
+        color: #333;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        background: #333;
+        color: #fff;
+    }
+    
+    main {
+        margin: 50px auto;
+        max-width: 800px;
+        padding: 0 20px;
+    }
+    
+    section {
+        margin: 50px 0;
+    }
+    
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    h1{
+        font-family: Verdana;
+        text-transform: capitalize;
+    }
+    h3{
+        text-align: center;
+  padding: 10px 20px;
+    }
+    
+    article {
+        margin: 50px 0;
+        text-align: center;
+    }
+    
+    img {
+        width: 80%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+    }
+    
+    p {
+        line-height: 1.5;
+    }
+    
+    footer {
+        background: #333;
+        color: #fff;
+        padding: 50px;
+        text-align:justify;
+    }
+    
+    footer img {
+        display: block;
+        margin: 0 auto;
+        max-width: 200px;
+        height: auto;
+    }
+    
+    footer div {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 50px;
+    }
+    
+    footer p {
+        margin: 0;
+    }
+    
+    form {
+        margin-top: 50px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    input[type="submit"] {
+        background: #ffd1dc;
+        color: #333;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+        background: #333;
+        color: #fff;
+    }
+    
